@@ -9,7 +9,7 @@ Is a hot dog a sandwich? Is cereal a soup? The cube rule settles these debates o
 First, add the marketplace:
 
 ```bash
-claude plugin marketplace add github:bfd-kr/cube-rule
+claude plugin marketplace add https://github.com/bfd-kr/cube-rule.git
 ```
 
 Then install the plugin:
