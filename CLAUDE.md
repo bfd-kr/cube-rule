@@ -5,6 +5,7 @@ A Claude Code plugin providing the Cube Rule of Food Identification as a skill. 
 ## Structure
 
 - `.claude-plugin/plugin.json` - Plugin manifest
+- `.claude-plugin/marketplace.json` - Marketplace manifest (allows `claude plugin marketplace add`)
 - `skills/cube-rule/SKILL.md` - The skill file (loaded when invoked)
 - `docs/plans/` - Design and implementation documents
 
@@ -12,6 +13,6 @@ A Claude Code plugin providing the Cube Rule of Food Identification as a skill. 
 
 This is a pure markdown plugin - no build steps required.
 
-**Test locally:** `claude plugins add .` from the repo root, then ask Claude a food classification question.
+**Test locally:** `claude plugin marketplace add /path/to/cube-rule` then `claude plugin install cube-rule`, then ask Claude a food classification question.
 
 **Modify classifications:** Edit `skills/cube-rule/SKILL.md` directly. The classification table and special rules are all inline.

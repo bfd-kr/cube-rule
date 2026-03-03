@@ -6,8 +6,16 @@ Is a hot dog a sandwich? Is cereal a soup? The cube rule settles these debates o
 
 ## Installation
 
+First, add the marketplace:
+
 ```bash
-claude plugins add <repo-url>
+claude plugin marketplace add github:bfd-kr/cube-rule
+```
+
+Then install the plugin:
+
+```bash
+claude plugin install cube-rule
 ```
 
 ## Usage
@@ -18,8 +26,6 @@ Once installed, the skill activates when you ask Claude about food classificatio
 - "Classify a burrito"
 - "What type of food is lasagna?"
 - "Is cereal a soup?"
-
-You can also invoke it directly with `/cube-rule`.
 
 ## The Cube Rule
 
