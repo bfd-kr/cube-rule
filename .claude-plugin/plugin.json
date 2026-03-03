@@ -1,0 +1,8 @@
+{
+  "name": "cube-rule",
+  "description": "The Cube Rule of Food Identification - classify any food by structural starch position",
+  "version": "1.0.0",
+  "homepage": "https://cuberule.com/",
+  "license": "Unlicense",
+  "keywords": ["food", "classification", "cube-rule", "taxonomy", "fun"]
+}
