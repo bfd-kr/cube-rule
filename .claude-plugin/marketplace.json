@@ -1,4 +1,5 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "cube-rule",
   "description": "The Cube Rule of Food Identification - classify any food by structural starch position",
   "owner": {},
